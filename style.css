@@ -136,48 +136,46 @@ iframe {
 }
 
 .tryout-box {
-      background: #18221c;
-      padding: 15px;
-      border-radius: 8px;
-      display: flex;
-      align-items: center;
-      margin: 15px 0;
-    }
+    background: #18221c;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
 
-    .tryout-box span {
-      font-size: 30px;
-      margin-right: 15px;
-    }
+.tryout-box span {
+    font-size: 30px;
+    margin-right: 15px;
+}
 
-    .tryout-text {
-      display: flex;
-      flex-direction: column;
-    }
+.tryout-text {
+    display: flex;
+    flex-direction: column;
+}
 
-    .tryout-text strong {
-      font-size: 16px;
-      margin-bottom: 5px;
-    }
-    .contact-item {
-      display: flex;
-      align-items: center;
-      margin: 15px 0;
-      gap: 10px;
-      color: #04d353;
-    }
+.tryout-text strong {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
 
- .contact-item a{
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    gap: 10px;
+    color: #04d353;
+}
+
+.contact-item a{
     color: white;
  }
 
-    footer {
-      text-align: center;
-      padding: 20px;
-      color: #aaa;
-      font-size: 14px;
-    }
+/*form----------------------------------------*/
 
-/*----------------------------------------*/
+body.ns{
+    all: unset;
+}
 /* RESPONSIVIDADE */
 
 @media (max-width: 768px){
